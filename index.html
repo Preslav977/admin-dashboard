@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital@0;1&family=Oswald:wght@500&display=swap" rel="stylesheet"> 
   <title>Admin Dashboard</title>
 </head>
 <body>
@@ -13,43 +16,43 @@
       <div class="nav-bar">
         <ul>
           <li class="nav-bar">
-            <img src="" alt="">
+            <img class="svg-icon dashboard" src="svg-icons/view-dashboard.svg">
             Dashboard
           </li>
-          <li class="sub-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/home-variant.svg" alt="">
             Home
           </li>
-          <li class="sub-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/account-box.svg" alt="">
             Profile
           </li>
-          <li class="sub-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/message-reply-outline.svg" alt="">
             Messages
           </li>
-          <li class="sub-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/clock-time-four-outline.svg" alt="">
             History
           </li>
-          <li class="sub-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/text-box-multiple-outline.svg" alt="">
             Tasks
           </li>
-          <li class="sub-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/account-group.svg" alt="">
             Communities
           </li>
-          <li class="end-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/cog.svg" alt="">
             Settings
           </li>
-          <li class="end-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/help-circle-outline.svg" alt="">
             Support
           </li>
-          <li class="end-nav-bar">
-            <img src="" alt="">
+          <li class="nav-bar">
+            <img class="svg-icon" src="svg-icons/shield-check.svg" alt="">
             Privacy
           </li>
         </ul>
@@ -57,22 +60,28 @@
     </div>
     <div class="main-navbar-container">
       <div class="main-navbar-content">
-          <img src="" alt="">
-          <input type="text" name="" id="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <p>Test</p>
+        <div class="main-navbar-content-left-side">
+          <img class="magnify-icon svg-icon" src="svg-icons/magnify.svg" alt="">
+          <input type="users-pictures-container">
+        </div>
+          <div class="main-navbar-content-right-side">
+            <img class="bell-icon svg-icon" src="svg-icons/bell-ring.svg" alt="">
+            <img class="profile-picture" src="profile-picture/pylot.jpg" alt="">
+            <p>Preslaw Tsvetanow</p>
+          </div>
       </div>
       <div class="sub-navbar-container">
         <div class="sub-navbar-content">
-          <img src="" alt="">
-          <p>Hello there,</p>
-          <p>User</p>
+          <img class="profile-picture-big" src="profile-picture/pylot.jpg" alt="">
+          <div class="hello-user">
+            <p>Hello there,</p>
+            <p>Preslaw Tsvetanow (@pylot)</p>
+          </div>
         </div>
         <div class="sub-navbar-buttons">
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
+          <button class="sub-navbar-button">New</button>
+          <button class="sub-navbar-button">Upload</button>
+          <button class="sub-navbar-button">Share</button>
         </div>
       </div>
     </div>
@@ -80,58 +89,163 @@
       <div class="main-content">
         <div class="card">
           <div class="title">
+            Landing Page
           </div>
+          <div class="content-container">
           <div class="content">
+            <img class="project-img" src="project-picture/landing-page.PNG" alt="">
           </div>
         </div>
-        <div class="card">
-          <div class="title">
+          <div class="project-icons">
+            <a href="https://github.com/Preslav977/project-landing-page" target="_blank"><img class="svg-icon" src="svg-icons/eye-plus-outline.svg" alt=""></a>
+            <img class="svg-icon" src="svg-icons/star-plus.svg" alt="">
           </div>
-          <div class="content">
           </div>
-        </div>
           <div class="card">
             <div class="title">
+              Rock, Paper, Scissors
             </div>
+            <div class="content-container">
             <div class="content">
+              <img class="project-img" src="project-picture/RPS.PNG" alt="">
             </div>
           </div>
-        <div class="card">
+            <div class="project-icons">
+              <a href="https://github.com/Preslav977/rock-paper-scissors" target="_blank"><img class="svg-icon" src="svg-icons/eye-plus-outline.svg" alt=""></a>
+              <img class="svg-icon" src="svg-icons/star-plus.svg" alt="">
+            </div>
+            </div>
+            <div class="card">
+              <div class="title">
+                Etch-A-Sketch
+              </div>
+              <div class="content-container">
+              <div class="content">
+                <img class="project-img" src="project-picture/etch-a-sketch.PNG" alt="">
+              </div>
+            </div>
+              <div class="project-icons">
+                <a href="https://github.com/Preslav977/etch-a-sketch" target="_blank"><img class="svg-icon" src="svg-icons/eye-plus-outline.svg" alt=""></a>
+                <img class="svg-icon" src="svg-icons/star-plus.svg" alt="">
+              </div>
+              </div>
+              <div class="card">
+                <div class="title">
+                  Calculator
+                </div>
+                <div class="content-container">
+                <div class="content">
+                  <img class="project-img" src="project-picture/calculator.PNG" alt="">
+                </div>
+              </div>
+                <div class="project-icons">
+                  <a href="https://github.com/Preslav977/calculator" target="_blank"><img class="svg-icon" src="svg-icons/eye-plus-outline.svg" alt=""></a>
+                  <img class="svg-icon" src="svg-icons/star-plus.svg" alt="">
+                </div>
+                </div>
+                <div class="card">
+                  <div class="title">
+                    Sign-up Form
+                  </div>
+                  <div class="content-container">
+                  <div class="content">
+                    <img class="project-img" src="project-picture/sign-up-form.PNG" alt="">
+                  </div>
+                </div>
+                  <div class="project-icons">
+                    <a href="https://github.com/Preslav977/sign-up-form" target="_blank"><img class="svg-icon" src="svg-icons/eye-plus-outline.svg" alt=""></a>
+                    <img class="svg-icon" src="svg-icons/star-plus.svg" alt="">
+                  </div>
+                  </div>
+                  <div class="card">
+                    <div class="title">
+                    Admin Dashboard
+                </div>
+                <div class="content-container">
+                <div class="content">
+                <img class="project-img" src="project-picture/admin-dashboard.PNG" alt="">
+              </div>
+            </div>
+          <div class="project-icons">
+            <a href="https://github.com/Preslav977/admin-dashboard" target="_blank"><img class="svg-icon" src="svg-icons/eye-plus-outline.svg" alt=""></a>
+          <img class="svg-icon" src="svg-icons/star-plus.svg" alt="">
+          </div>
+        </div>
+      </div>
+          <div class="sub-content">
+        <div class="sub-card">
           <div class="title">
+            Site Maintenance
           </div>
-          <div class="content">
+          <div class="information-container">
+            The site is under maintenance for the next couple for days!
+            In the next couple days will be down until the content has been added
           </div>
-      </div>
-      <div class="card">
-        <div class="title">
-        </div>
-        <div class="content">
-        </div>
+          <div class="break"></div>
+          <div class="title">
+            <div class="information-container">
+              Share Community Day
+            </div>
+          </div>
+          <div class="information-container">
+            Today is the day to share your thought with our users!
+          </div>
+          <div class="break"></div>
+          <div class="title">
+            Updated Privacy Policy
+          </div>
+          <div class="information-container">
+            If you wanted to read about the new policy you have to wait until it's posted!
+          </div>
     </div>
-    <div class="card">
-      <div class="title">
+    <div class="sub-card column-two">
+      <div class="sub-content-one">
+        <div class="users-pictures-container">
+          <img class="profile-picture" src="profile-picture/pylot.jpg" alt="">
+          <div class="users-feedback">
+            <p>@George</p>
+            <p>Cool project!</p>
+          </div>
+        </div>
+        <div class="users-pictures-container">
+          <img class="profile-picture" src="profile-picture/pylot-three.jpg" alt="">
+          <div class="users-feedback">
+            <p>@Hank</p>
+            <p>I like the colors !</p>
+          </div>
+        </div>
+        <div class="users-pictures-container">
+          <img class="profile-picture" src="profile-picture/pylot-two.jpg" alt="">
+          <div class="users-feedback">
+            <p>@Frank</p>
+            <p>Nice</p>
+          </div>
+        </div>
+        <div class="users-pictures-container">
+          <img class="profile-picture" src="profile-picture/pylot-one.jpg" alt="">
+          <div class="users-feedback">
+            <p>@Gringo</p>
+            <p>Poggers</p>
+          </div>
+        </div>
       </div>
-      <div class="content">
+    </div>
+    <div class="sub-card column-three">
+      <div class="sub-content-two">
+       Discord
+        <div class="user-info-container">
+          <img class="profile-picture" src="linked-profiles/discord.png" alt="">
+        </div>
+      </div>
+      <div class="break"></div>
+      <div class="sub-content-two">
+        Git Hub
+        <div class="user-info-container">
+          <img class="profile-picture" src="linked-profiles/git-hub.jpg" alt="">
+        </div> 
       </div>
   </div>
-  <div class="sub-content">
-    <div class="sub-card">
-      <div class="title">
-      </div>
-      <div class="content">
-      </div>
-    </div>
-    <div class="sub-card">
-      <div class="title">
-      </div>
-      <div class="content">
-      </div>
-    </div>
   </div>
-        </div>
-        </div>
       </div>
-    </div>
-  </div>
 </body>
 </html>
